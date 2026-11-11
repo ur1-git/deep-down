@@ -1,0 +1,22 @@
+# Detect text files and use consistent line endings
+* text=auto
+
+# Unity and C# text files
+*.cs text eol=lf
+*.meta text eol=lf
+*.unity text eol=lf
+*.prefab text eol=lf
+*.asset text=auto eol=lf
+*.anim text eol=lf
+*.controller text eol=lf
+*.inputactions text eol=lf
+
+# Binary artwork and audio
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.wav binary
+*.ogg binary
+*.mp3 binary
+*.aseprite binary
+*.psd binary
